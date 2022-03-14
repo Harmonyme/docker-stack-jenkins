@@ -37,9 +37,10 @@ services:
 
 verify services were created:
 
-'docker service ls'
+`docker service ls`
 
-to see Jenkins initial password
+to see Jenkins initial password:
+
 `docker service logs jenkins_jenkins`
 
 # Script for rolling update
